@@ -1,0 +1,19 @@
+
+
+.winter {
+    background-color: #087e8b;
+}
+.spring {
+    background-color: #f3b700;
+}
+.fall {
+    background-color: #a63c06;
+}
+.summer {
+    background-color: #eccbd9;
+}
+
+#card {
+    text-align: center;
+}
+
