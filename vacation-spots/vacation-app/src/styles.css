@@ -1,19 +1,32 @@
 
 
 .winter {
-    background-color: #087e8b;
+    background-color: #74AFBF;
 }
 .spring {
-    background-color: #f3b700;
+    background-color: #77C37C;
 }
 .fall {
-    background-color: #a63c06;
+    background-color: #CD9131;
 }
 .summer {
-    background-color: #eccbd9;
+    background-color: #E5E55D;
 }
 
 #card {
     text-align: center;
+    width: 1000px;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    border-radius: 20px;
+
 }
 
+.cards {
+    background-color: #dfd9d885;
+}
+
+/* .navbar {
+    background-image: url("/vacation-app/");
+} */

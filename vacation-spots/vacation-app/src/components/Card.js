@@ -8,7 +8,7 @@ export default function Card(props) {
     } else if(props.price >= 1000){
         expense = "$$$"
     } 
-    console.log(props.timeToGo)
+    
     let season
     if (props.timeToGo === "Winter") {
         season = "winter"
@@ -20,9 +20,9 @@ export default function Card(props) {
         season = "summer"
     }
     return (
-        <div className={`${season}` } id="card">
+        <div className={`${season}`} id="card">
             <h1>{props.place}</h1>
-            <p>{expense} {props.price}</p>
+            <p>{expense} Price:{props.price}</p>
             <p>{props.timeToGo}</p>
         </div>
     )
