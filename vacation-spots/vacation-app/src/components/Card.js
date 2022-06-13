@@ -22,8 +22,8 @@ export default function Card(props) {
     return (
         <div className={`${season}`} id="card">
             <h1>{props.place}</h1>
-            <p>{expense} Price:{props.price}</p>
-            <p>{props.timeToGo}</p>
+            <p>{expense} The trip will cost you around ${props.price}</p>
+            <p>We suggest going around {props.timeToGo}!</p>
         </div>
     )
 }
