@@ -1,0 +1,46 @@
+
+
+.djGrid > div > div > p {
+    border: 1px solid black;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+.djGrid > div > div{
+    display: grid;
+    grid-template-columns: repeat(2,  1fr);
+    grid-template-rows: repeat(1, 1fr);
+   
+}
+
+.djGrid > div > div > button {
+    width: 25%;
+    height: 50%;
+    padding: 1%;
+}
+
+.box0 {
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+}
+
+.box1 {
+    grid-column: 1 / 1;
+    grid-row:  1 / 1;
+}
+
+#white {
+    background-color: #FFF;
+    color: #000;
+}
+
+#black {
+    background-color: #000;
+    color: #FFF;
+}

@@ -6,7 +6,7 @@ export default function Pets(props) {
     })
     return (
         <div>
-            <p>{props.name} has {props.pets.length} pet(s). Here are their pets and their breeds:</p>
+            <p>{props.name} has {props.pets.length} pet(s). Here are their pet(s) and their breed(s):</p>
             <ul>
                 {pet}
             </ul>
