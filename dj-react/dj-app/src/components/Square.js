@@ -1,23 +1,14 @@
 import React from "react"
 function Square(props) {
-
-    const colorsElements = props.color.map((element, index) => {
-        return (
-            <div>
-                <p
-                    id={`${element}`}
-                    className={`box${index}`}>
-                    {`Box ${index + 1}`}
-                </p>
-            </div>
-        )
-    })
-
+    const pColor = props.color
+    
     return (
-        <div>
-            {colorsElements}
-            <button onClick={props.handleClick}>Change Color</button>
-        </div>
+        <p style={{
+                backgroundColor: pColor,
+                height: "200px",
+                width: "200px",
+            }}></p>
+
     )
 }
 
